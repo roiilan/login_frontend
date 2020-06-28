@@ -18,8 +18,7 @@ export default {
          usersCount: null
     },
     getters: {
-        users(state) {
-            
+        users(state) {            
             return state.users;
         },
         loggedinUser(state) {                        
@@ -102,8 +101,7 @@ export default {
         // async setUser(context, {user}){
         //     context.commit({ type: 'setUser', user })
         // },
-        async setNewUserCred(context, {newUserCred}){
-            
+        async setNewUserCred(context, {newUserCred}){            
            context.commit({type:'setNewUserCred', newUserCred})
         }
     }

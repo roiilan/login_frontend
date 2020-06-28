@@ -2,6 +2,7 @@
   <div>
     <textarea v-model="word" ref="word" name="text" id="text" cols="30" rows="10"></textarea>
     <button @click="exportHTML">Export as Word</button>
+    
     <router-link
       to="/login"
     > 

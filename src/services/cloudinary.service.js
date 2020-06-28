@@ -1,5 +1,5 @@
 function uploadImg(ev) {
-    const CLOUD_NAME = "tamir"
+    const CLOUD_NAME = "roi"
     const UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
     const formData = new FormData();
         if (ev.target) {
