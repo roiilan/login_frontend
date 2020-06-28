@@ -1,4 +1,6 @@
-# for-appraisers
+# login + signup with vue.js
+
+don't forget the backend!! - https://github.com/roiilan/login_backend
 
 ## Project setup
 ```
